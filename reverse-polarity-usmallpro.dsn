@@ -1,0 +1,168 @@
+(pcb "/home/haaken/lommelykt/reverse-polarity/reverse-polarity-small/reverse-polarity-usmallpro/reverse-polarity-usmallpro.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "5.0.2-bee76a0~70~ubuntu18.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  69165.4 -82021.1  70309.1 -82258.8  71409.8 -82649.9
+            72446.9 -83187.3  73401.2 -83861  74254.9 -84658.3  74992.1 -85564.4
+            75599.1 -86562.5  76064.5 -87633.9  76379.6 -88758.7  76538.7 -89915.9
+            76538.7 -91084.1  76379.6 -92241.3  76064.5 -93366.1  75599.1 -94437.5
+            74992.1 -95435.6  74254.9 -96341.7  73401.2 -97139  72446.9 -97812.7
+            71409.8 -98350.1  70309.1 -98741.2  69165.4 -98978.9  68000 -99058.6
+            66834.6 -98978.9  65690.9 -98741.2  64590.2 -98350.1  63553.1 -97812.7
+            62598.8 -97139  61745.1 -96341.7  61007.9 -95435.6  60400.9 -94437.5
+            59935.5 -93366.1  59620.4 -92241.3  59461.3 -91084.1  59461.3 -89915.9
+            59620.4 -88758.7  59935.5 -87633.9  60400.9 -86562.5  61007.9 -85564.4
+            61745.1 -84658.3  62598.8 -83861  63553.1 -83187.3  64590.2 -82649.9
+            65690.9 -82258.8  66834.6 -82021.1  68000 -81941.4  69165.4 -82021.1)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 600)
+      (clearance 150.1)
+      (clearance 150.1 (type default_smd))
+      (clearance 37.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component "Package_TO_SOT_SMD:SOT-23"
+      (place Q1 73500 -90500 front 180 (PN AO3401A))
+      (place Q3 68050 -85000 front 270 (PN AO3401A))
+    )
+    (component "Package_TO_SOT_SMD:SOT-23::1"
+      (place Q2 62500 -90550 front 0 (PN AO3401A))
+      (place Q4 68000 -96000 front 90 (PN AO3401A))
+    )
+    (component TestPoint:TestPoint_Plated_Hole_D2.0mm
+      (place J2 64000 -94500 front 0 (PN "105-1102-001"))
+      (place J4 72000 -86500 front 0 (PN "105-1102-001"))
+    )
+    (component "my-footprints:6mmFpad-SMD"
+      (place J1 68000 -90500 front 0 (PN "105-1102-001"))
+    )
+    (component "my-footprints:6mmBpad-SMD"
+      (place J3 68000 -90500 front 0 (PN "105-1102-001"))
+    )
+  )
+  (library
+    (image "Package_TO_SOT_SMD:SOT-23"
+      (outline (path signal 100  -700 950  -700 -1500))
+      (outline (path signal 100  -150 1520  700 1520))
+      (outline (path signal 100  -700 950  -150 1520))
+      (outline (path signal 100  700 1520  700 -1520))
+      (outline (path signal 100  -700 -1520  700 -1520))
+      (outline (path signal 120  760 -1580  760 -650))
+      (outline (path signal 120  760 1580  760 650))
+      (outline (path signal 50  -1700 1750  1700 1750))
+      (outline (path signal 50  1700 1750  1700 -1750))
+      (outline (path signal 50  1700 -1750  -1700 -1750))
+      (outline (path signal 50  -1700 -1750  -1700 1750))
+      (outline (path signal 120  760 1580  -1400 1580))
+      (outline (path signal 120  760 -1580  -700 -1580))
+      (pin Rect[T]Pad_900x800_um 1 -1000 950)
+      (pin Rect[T]Pad_900x800_um 2 -1000 -950)
+      (pin Rect[T]Pad_900x800_um 3 1000 0)
+    )
+    (image "Package_TO_SOT_SMD:SOT-23::1"
+      (outline (path signal 120  760 -1580  -700 -1580))
+      (outline (path signal 120  760 1580  -1400 1580))
+      (outline (path signal 50  -1700 -1750  -1700 1750))
+      (outline (path signal 50  1700 -1750  -1700 -1750))
+      (outline (path signal 50  1700 1750  1700 -1750))
+      (outline (path signal 50  -1700 1750  1700 1750))
+      (outline (path signal 120  760 1580  760 650))
+      (outline (path signal 120  760 -1580  760 -650))
+      (outline (path signal 100  -700 -1520  700 -1520))
+      (outline (path signal 100  700 1520  700 -1520))
+      (outline (path signal 100  -700 950  -150 1520))
+      (outline (path signal 100  -150 1520  700 1520))
+      (outline (path signal 100  -700 950  -700 -1500))
+      (pin Rect[T]Pad_900x800_um 3 1000 0)
+      (pin Rect[T]Pad_900x800_um 2 -1000 -950)
+      (pin Rect[T]Pad_900x800_um 1 -1000 950)
+    )
+    (image TestPoint:TestPoint_Plated_Hole_D2.0mm
+      (outline (path signal 50  1800 0  1720.03 -530.559  1487.23 -1013.98  1122.28 -1407.3
+            657.614 -1675.57  134.514 -1794.97  -400.538 -1754.87  -900 -1558.85
+            -1319.49 -1224.31  -1621.74 -780.991  -1779.89 -268.276  -1779.89 268.276
+            -1621.74 780.991  -1319.49 1224.31  -900 1558.85  -400.538 1754.87
+            134.514 1794.97  657.614 1675.57  1122.28 1407.3  1487.23 1013.98
+            1720.03 530.559  1800 0))
+      (outline (path signal 120  1700 0  1616.8 -525.329  1375.33 -999.235  999.235 -1375.33
+            525.329 -1616.8  0 -1700  -525.329 -1616.8  -999.235 -1375.33
+            -1375.33 -999.235  -1616.8 -525.329  -1700 0  -1616.8 525.329
+            -1375.33 999.235  -999.235 1375.33  -525.329 1616.8  0 1700
+            525.329 1616.8  999.235 1375.33  1375.33 999.235  1616.8 525.329
+            1700 0))
+      (pin Round[A]Pad_3000_um 1 0 0)
+    )
+    (image "my-footprints:6mmFpad-SMD"
+      (pin Round[T]Pad_6000_um 1 0 0)
+    )
+    (image "my-footprints:6mmBpad-SMD"
+      (pin Round[B]Pad_6000_um 1 0 0)
+    )
+    (padstack Round[B]Pad_6000_um
+      (shape (circle B.Cu 6000))
+      (attach off)
+    )
+    (padstack Round[A]Pad_3000_um
+      (shape (circle F.Cu 3000))
+      (shape (circle B.Cu 3000))
+      (attach off)
+    )
+    (padstack Round[T]Pad_6000_um
+      (shape (circle F.Cu 6000))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_900x800_um
+      (shape (rect F.Cu -450 -400 450 400))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net /DC+IN
+      (pins Q1-3 Q2-3 Q3-3 Q4-3 J1-1)
+    )
+    (net "/DC-"
+      (pins Q1-1 Q2-1 Q3-1 Q4-1 J2-1 J4-1)
+    )
+    (net /DC+PRO
+      (pins Q1-2 Q2-2 Q3-2 Q4-2 J3-1)
+    )
+    (class kicad_default "" /DC+IN /DC+PRO "/DC-"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 600)
+        (clearance 150.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

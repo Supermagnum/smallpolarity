@@ -1,0 +1,233 @@
+EESchema Schematic File Version 4
+LIBS:reverse-polarity-usmallpro-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:AO3401A Q1
+U 1 1 5DFB1D0A
+P 4750 2550
+F 0 "Q1" V 5017 2550 60  0000 C CNN
+F 1 "AO3401A" V 4911 2550 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 2750 60  0001 L CNN
+F 3 "http://aosmd.com/res/data_sheets/AO3401A.pdf" H 4950 2850 60  0001 L CNN
+F 4 "785-1001-1-ND" H 4950 2950 60  0001 L CNN "Digi-Key_PN"
+F 5 "AO3401A" H 4950 3050 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 4950 3150 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 4950 3250 60  0001 L CNN "Family"
+F 8 "http://aosmd.com/res/data_sheets/AO3401A.pdf" H 4950 3350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/alpha-omega-semiconductor-inc/AO3401A/785-1001-1-ND/1855943" H 4950 3450 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET P-CH 30V 4A SOT23" H 4950 3550 60  0001 L CNN "Description"
+F 11 "Alpha & Omega Semiconductor Inc." H 4950 3650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4950 3750 60  0001 L CNN "Status"
+	1    4750 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:AO3401A Q2
+U 1 1 5DFB1DD8
+P 5600 2550
+F 0 "Q2" V 5867 2550 60  0000 C CNN
+F 1 "AO3401A" V 5761 2550 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5800 2750 60  0001 L CNN
+F 3 "http://aosmd.com/res/data_sheets/AO3401A.pdf" H 5800 2850 60  0001 L CNN
+F 4 "785-1001-1-ND" H 5800 2950 60  0001 L CNN "Digi-Key_PN"
+F 5 "AO3401A" H 5800 3050 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 5800 3150 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 5800 3250 60  0001 L CNN "Family"
+F 8 "http://aosmd.com/res/data_sheets/AO3401A.pdf" H 5800 3350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/alpha-omega-semiconductor-inc/AO3401A/785-1001-1-ND/1855943" H 5800 3450 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET P-CH 30V 4A SOT23" H 5800 3550 60  0001 L CNN "Description"
+F 11 "Alpha & Omega Semiconductor Inc." H 5800 3650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5800 3750 60  0001 L CNN "Status"
+	1    5600 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:AO3401A Q3
+U 1 1 5DFB1F0A
+P 6550 2550
+F 0 "Q3" V 6817 2550 60  0000 C CNN
+F 1 "AO3401A" V 6711 2550 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6750 2750 60  0001 L CNN
+F 3 "http://aosmd.com/res/data_sheets/AO3401A.pdf" H 6750 2850 60  0001 L CNN
+F 4 "785-1001-1-ND" H 6750 2950 60  0001 L CNN "Digi-Key_PN"
+F 5 "AO3401A" H 6750 3050 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 6750 3150 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 6750 3250 60  0001 L CNN "Family"
+F 8 "http://aosmd.com/res/data_sheets/AO3401A.pdf" H 6750 3350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/alpha-omega-semiconductor-inc/AO3401A/785-1001-1-ND/1855943" H 6750 3450 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET P-CH 30V 4A SOT23" H 6750 3550 60  0001 L CNN "Description"
+F 11 "Alpha & Omega Semiconductor Inc." H 6750 3650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6750 3750 60  0001 L CNN "Status"
+	1    6550 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:AO3401A Q4
+U 1 1 5DFB1FF0
+P 7550 2550
+F 0 "Q4" V 7817 2550 60  0000 C CNN
+F 1 "AO3401A" V 7711 2550 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7750 2750 60  0001 L CNN
+F 3 "http://aosmd.com/res/data_sheets/AO3401A.pdf" H 7750 2850 60  0001 L CNN
+F 4 "785-1001-1-ND" H 7750 2950 60  0001 L CNN "Digi-Key_PN"
+F 5 "AO3401A" H 7750 3050 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7750 3150 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 7750 3250 60  0001 L CNN "Family"
+F 8 "http://aosmd.com/res/data_sheets/AO3401A.pdf" H 7750 3350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/alpha-omega-semiconductor-inc/AO3401A/785-1001-1-ND/1855943" H 7750 3450 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET P-CH 30V 4A SOT23" H 7750 3550 60  0001 L CNN "Description"
+F 11 "Alpha & Omega Semiconductor Inc." H 7750 3650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7750 3750 60  0001 L CNN "Status"
+	1    7550 2550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6650 2850
+Wire Wire Line
+	5700 2850 5200 2850
+Connection ~ 5700 2850
+Wire Wire Line
+	4550 2550 4550 2000
+Wire Wire Line
+	4550 2000 5400 2000
+Wire Wire Line
+	5400 2000 5400 2550
+Wire Wire Line
+	6350 2550 6350 2000
+Wire Wire Line
+	6350 2000 5400 2000
+Connection ~ 5400 2000
+Wire Wire Line
+	7350 2550 7350 2000
+Wire Wire Line
+	7350 2000 6350 2000
+Connection ~ 6350 2000
+Wire Wire Line
+	4950 2550 4950 3200
+Wire Wire Line
+	4950 3200 5800 3200
+Wire Wire Line
+	5800 3200 5800 2550
+Wire Wire Line
+	6750 2550 6750 3200
+Wire Wire Line
+	6750 3200 6150 3200
+Connection ~ 5800 3200
+Wire Wire Line
+	7750 2550 7750 3200
+Wire Wire Line
+	7750 3200 6750 3200
+Connection ~ 6750 3200
+$Comp
+L dk_Banana-and-Tip-Connectors-Jacks-Plugs:105-1102-001 J1
+U 1 1 5DFB240D
+P 4550 1850
+F 0 "J1" H 4628 1840 50  0000 L CNN
+F 1 "105-1102-001" H 4628 1749 50  0001 L CNN
+F 2 "my-footprints:6mmFpad-SMD" H 4750 2050 60  0001 L CNN
+F 3 "https://belfuse.com/resources/Johnson/drawings/dr-1051101001.pdf" H 4750 2150 60  0001 L CNN
+F 4 "J576-ND" H 4750 2250 60  0001 L CNN "Digi-Key_PN"
+F 5 "105-1102-001" H 4750 2350 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 4750 2450 60  0001 L CNN "Category"
+F 7 "Banana and Tip Connectors - Jacks, Plugs" H 4750 2550 60  0001 L CNN "Family"
+F 8 "https://belfuse.com/resources/Johnson/drawings/dr-1051101001.pdf" H 4750 2650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cinch-connectivity-solutions-johnson/105-1102-001/J576-ND/241121" H 4750 2750 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN TIP JACK SOLDER RED" H 4750 2850 60  0001 L CNN "Description"
+F 11 "Cinch Connectivity Solutions Johnson" H 4750 2950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4750 3050 60  0001 L CNN "Status"
+	1    4550 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4550 2000
+$Comp
+L dk_Banana-and-Tip-Connectors-Jacks-Plugs:105-1102-001 J2
+U 1 1 5DFB2517
+P 5200 2700
+F 0 "J2" H 5278 2690 50  0000 L CNN
+F 1 "105-1102-001" H 5278 2599 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 5400 2900 60  0001 L CNN
+F 3 "https://belfuse.com/resources/Johnson/drawings/dr-1051101001.pdf" H 5400 3000 60  0001 L CNN
+F 4 "J576-ND" H 5400 3100 60  0001 L CNN "Digi-Key_PN"
+F 5 "105-1102-001" H 5400 3200 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 5400 3300 60  0001 L CNN "Category"
+F 7 "Banana and Tip Connectors - Jacks, Plugs" H 5400 3400 60  0001 L CNN "Family"
+F 8 "https://belfuse.com/resources/Johnson/drawings/dr-1051101001.pdf" H 5400 3500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cinch-connectivity-solutions-johnson/105-1102-001/J576-ND/241121" H 5400 3600 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN TIP JACK SOLDER RED" H 5400 3700 60  0001 L CNN "Description"
+F 11 "Cinch Connectivity Solutions Johnson" H 5400 3800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5400 3900 60  0001 L CNN "Status"
+	1    5200 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5200 2850
+Wire Wire Line
+	5200 2850 4850 2850
+$Comp
+L dk_Banana-and-Tip-Connectors-Jacks-Plugs:105-1102-001 J3
+U 1 1 5DFB25EC
+P 6150 3050
+F 0 "J3" H 6228 3040 50  0000 L CNN
+F 1 "105-1102-001" H 6228 2949 50  0001 L CNN
+F 2 "my-footprints:6mmBpad-SMD" H 6350 3250 60  0001 L CNN
+F 3 "https://belfuse.com/resources/Johnson/drawings/dr-1051101001.pdf" H 6350 3350 60  0001 L CNN
+F 4 "J576-ND" H 6350 3450 60  0001 L CNN "Digi-Key_PN"
+F 5 "105-1102-001" H 6350 3550 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 6350 3650 60  0001 L CNN "Category"
+F 7 "Banana and Tip Connectors - Jacks, Plugs" H 6350 3750 60  0001 L CNN "Family"
+F 8 "https://belfuse.com/resources/Johnson/drawings/dr-1051101001.pdf" H 6350 3850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cinch-connectivity-solutions-johnson/105-1102-001/J576-ND/241121" H 6350 3950 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN TIP JACK SOLDER RED" H 6350 4050 60  0001 L CNN "Description"
+F 11 "Cinch Connectivity Solutions Johnson" H 6350 4150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6350 4250 60  0001 L CNN "Status"
+	1    6150 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 3200
+Wire Wire Line
+	6150 3200 5800 3200
+Text Label 5050 2000 0    50   ~ 0
+DC+IN
+Text Label 6900 2850 0    50   ~ 0
+DC-
+Text Label 5650 3200 0    50   ~ 0
+DC+PRO
+Wire Wire Line
+	6000 2850 6650 2850
+Wire Wire Line
+	5700 2850 6000 2850
+Connection ~ 6000 2850
+$Comp
+L dk_Banana-and-Tip-Connectors-Jacks-Plugs:105-1102-001 J4
+U 1 1 5DFB292C
+P 6000 2700
+F 0 "J4" H 6078 2690 50  0000 L CNN
+F 1 "105-1102-001" H 6078 2599 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 6200 2900 60  0001 L CNN
+F 3 "https://belfuse.com/resources/Johnson/drawings/dr-1051101001.pdf" H 6200 3000 60  0001 L CNN
+F 4 "J576-ND" H 6200 3100 60  0001 L CNN "Digi-Key_PN"
+F 5 "105-1102-001" H 6200 3200 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 6200 3300 60  0001 L CNN "Category"
+F 7 "Banana and Tip Connectors - Jacks, Plugs" H 6200 3400 60  0001 L CNN "Family"
+F 8 "https://belfuse.com/resources/Johnson/drawings/dr-1051101001.pdf" H 6200 3500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cinch-connectivity-solutions-johnson/105-1102-001/J576-ND/241121" H 6200 3600 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN TIP JACK SOLDER RED" H 6200 3700 60  0001 L CNN "Description"
+F 11 "Cinch Connectivity Solutions Johnson" H 6200 3800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6200 3900 60  0001 L CNN "Status"
+	1    6000 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2850 7650 2850
+$EndSCHEMATC
