@@ -4,7 +4,7 @@ This PCB board is 17mm in diameter, it has a four P-Channel SSM3J355R,LF channel
 BOM: four P-Channel SSM3J355R
 
 PCB :
-https://oshpark.com/shared_projects/QlLKpYoS
+https://oshpark.com/shared_projects/K1GudT3n
 
 
 Aisler:
