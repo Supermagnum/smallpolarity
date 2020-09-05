@@ -1,0 +1,198 @@
+
+(session "reverse-polarity-usmallpro.ses"
+  (base_design "reverse-polarity-usmallpro.dsn")
+  (placement
+    (resolution um 10)
+    (component "Package_TO_SOT_SMD:SOT-23"
+      (place Q1 780000 -905000 front 180)
+      (place Q3 680000 -810000 front 270)
+    )
+    (component "Package_TO_SOT_SMD:SOT-23::1"
+      (place Q2 585000 -905000 front 0)
+      (place Q4 680000 -1000000 front 90)
+    )
+    (component TestPoint:TestPoint_Plated_Hole_D2.0mm
+      (place J2 595000 -980000 front 0)
+      (place J4 770000 -840000 front 0)
+    )
+    (component "my-footprints:6mmFpad-SMD"
+      (place J1 680000 -905000 front 0)
+    )
+    (component "my-footprints:6mmBpad-SMD"
+      (place J3 680000 -905000 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version 5.1.6)
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /DC+IN
+        (wire
+          (path F.Cu 15000
+            680000 -905000
+            680000 -820000
+          )
+        )
+        (wire
+          (path F.Cu 15000
+            680000 -905000
+            770000 -905000
+          )
+        )
+        (wire
+          (path F.Cu 15000
+            595000 -905000
+            680000 -905000
+          )
+        )
+        (wire
+          (path F.Cu 15000
+            680000 -990000
+            680000 -905000
+          )
+        )
+      )
+      (net "/DC-"
+        (wire
+          (path B.Cu 15000
+            770000 -926546
+            770000 -956014
+            746014 -980000
+            595000 -980000
+          )
+        )
+        (wire
+          (path B.Cu 15000
+            770000 -840000
+            770000 -926546
+          )
+        )
+        (wire
+          (path F.Cu 15000
+            689500 -800000
+            708500 -800000
+          )
+        )
+        (wire
+          (path F.Cu 15000
+            770000 -840000
+            748500 -840000
+            708500 -800000
+          )
+        )
+        (wire
+          (path F.Cu 15000
+            790000 -914500
+            777954 -926546
+            770000 -926546
+          )
+        )
+        (via "Via[0-1]_800:400_um" 770000 -926546
+        )
+        (wire
+          (path F.Cu 15000
+            595000 -980000
+            558007 -943007
+            558007 -907953
+            570460 -895500
+            575000 -895500
+          )
+        )
+        (wire
+          (path F.Cu 15000
+            670500 -1010000
+            625000 -1010000
+            595000 -980000
+          )
+        )
+      )
+      (net /DC+PRO
+        (wire
+          (path F.Cu 15000
+            575000 -914500
+            588743 -928243
+            615997 -928243
+          )
+        )
+        (wire
+          (path B.Cu 15000
+            680000 -928243
+            615997 -928243
+          )
+        )
+        (wire
+          (path B.Cu 15000
+            680000 -928243
+            715237 -963480
+            738480 -963480
+          )
+        )
+        (wire
+          (path B.Cu 15000
+            680000 -905000
+            680000 -928243
+          )
+        )
+        (via "Via[0-1]_800:400_um" 615997 -928243
+        )
+        (wire
+          (path F.Cu 15000
+            689500 -1010000
+            708500 -1010000
+          )
+        )
+        (wire
+          (path F.Cu 15000
+            708500 -1010000
+            708500 -993460
+            738480 -963480
+          )
+        )
+        (wire
+          (path F.Cu 15000
+            794080 -895500
+            794340 -895500
+            806503 -907663
+            806503 -921337
+            764360 -963480
+            738480 -963480
+          )
+        )
+        (via "Via[0-1]_800:400_um" 738480 -963480
+        )
+        (wire
+          (path F.Cu 15000
+            794080 -895500
+            790000 -895500
+          )
+        )
+        (wire
+          (path F.Cu 15000
+            794080 -895500
+            794080 -829773
+            747512 -783205
+            682755 -783205
+            670500 -795460
+            670500 -800000
+          )
+        )
+      )
+    )
+  )
+)
